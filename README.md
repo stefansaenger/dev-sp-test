@@ -1,15 +1,12 @@
-PassportJS SAML example
-=======================
+local development SP
+====================
 
-[![Build Status](https://travis-ci.org/gbraad/passport-saml-example.svg?branch=master)](https://travis-ci.org/gbraad/passport-saml-example)
-[![Code Climate](https://codeclimate.com/github/gbraad/passport-saml-example/badges/gpa.svg)](https://codeclimate.com/github/gbraad/passport-saml-example)
-
+based on [passport-saml-example](https://github.com/gbraad/passport-saml-example)
 
 Description
 -----------
 
-An example to demonstrate the use of the [Passport-SAML](https://github.com/bergie/passport-saml) Authentication provider for PassportJS.
-
+local SP web application for use with vnc-localidp
 
 Usage
 -----
@@ -21,8 +18,12 @@ $ npm start
 ```
 
 
-Authors
--------
+
+
+Original Author:
+----------------
+
+| [@gbraad](https://twitter.com/gbraad) |
 
 | [!["Gerard Braad"](http://gravatar.com/avatar/e466994eea3c2a1672564e45aca844d0.png?s=60)](http://gbraad.nl "Gerard Braad <me@gbraad.nl>") |
 |---|
