@@ -52,7 +52,11 @@ module.exports = function (app, config, passport) {
   app.get('/logout', function (req, res) {
     req.logout();
     // TODO: invalidate session on IP
+
     res.redirect('/');
   });
+
+  app.get('/call-logout', passport.logoutSaml);
+
 
 };
