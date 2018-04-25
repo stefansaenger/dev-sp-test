@@ -1,7 +1,7 @@
 Task for Applicants
 ===================
 
-Right now thsi repository can simply be cloned and after following the steps from readme, you can start the app and log in. Credentials are provided to applicants seperately.
+Right now this repository can simply be cloned and after following the steps from readme, you can start the app and log in. Credentials are provided to applicants seperately.
 
 Right now this node app is using in-memory session store, hence when the node service is restarted, fetching [http://localhost:3000/profile](http://localhost:3000/profile) is causing a new SAML login. This can easily be watched in developer tools network console after setting preserve log option:
 
