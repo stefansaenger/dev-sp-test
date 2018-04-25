@@ -1,4 +1,4 @@
-local development SP
+development SP test
 ====================
 
 based on [passport-saml-example](https://github.com/gbraad/passport-saml-example)
@@ -6,7 +6,7 @@ based on [passport-saml-example](https://github.com/gbraad/passport-saml-example
 Description
 -----------
 
-local SP web application for use with vnc-localidp
+local SP web application for use with SAML IdP
 
 Usage
 -----
@@ -16,6 +16,8 @@ $ npm install
 $ bower install
 $ npm start
 ```
+
+This is preconfigured for usage with a fixed test SAML IdP installation and the node backend part is using in-memory storage for sessions.
 
 
 
