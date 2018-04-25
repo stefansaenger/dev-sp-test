@@ -7,4 +7,10 @@ Right now this node app is using in-memory session store, hence when the node se
 
 ![](./devtools-network.png)
 
-The task is to replace the in-memory session store with a persistant store. Since we already use PostgreSQL this would be the preferred option.
+The task is to replace the in-memory session store with a persistant store, so that the session is still available after restarting the node app. Since we already use PostgreSQL this would be the preferred option.
+
+
+What to  do?
+------------
+
+Fork this repository, implement a persistant session store and send a pull request.
