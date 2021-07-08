@@ -14,6 +14,15 @@ module.exports = {
         issuer: 'saml-commander-dev',
         cert: process.env.SAML_CERT || null
       }
+    },
+    db: {
+      pg: {
+        user: process.env.PG_DB_USER,
+        password: process.env.PG_DB_PASSWORD,
+        host: process.env.PG_DB_HOST,
+        port: process.env.PG_DB_PORT,
+        database: process.env.PG_DB_DATABASE
+      }
     }
   }
 };
