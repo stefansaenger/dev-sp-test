@@ -27,7 +27,7 @@
     "postinstall": "bower install"
   },
   "dependencies": {
-    "body-parser": "1.20.0",
+    "body-parser": "1.20.3",
     "cookie-parser": "1.4.3",
     "errorhandler": "1.4.3",
     "express": "4.19.2",
